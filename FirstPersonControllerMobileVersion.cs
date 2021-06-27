@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FirstPersonController : MonoBehaviour
+public class FirstPersonControllerMobileVersion : MonoBehaviour
 {
     // References
     [SerializeField] private Transform cameraTransform;
