@@ -6,7 +6,7 @@ public class Nave : MonoBehaviour
     public Transform[] target;
     public float speed;
     private int current;
-    // Use this for initialization    
+    // Use this for initialization.    
     void Start() { }
     // Update is called once per frame.    
     void Update()
