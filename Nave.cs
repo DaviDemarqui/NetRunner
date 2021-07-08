@@ -8,7 +8,7 @@ public class Nave : MonoBehaviour
     private int current;
     // Use this for initialization    
     void Start() { }
-    // Update is called once per frame    
+    // Update is called once per frame.    
     void Update()
     {
         if (transform.position != target[current].position)
