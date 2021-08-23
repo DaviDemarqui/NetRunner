@@ -13,7 +13,7 @@ public class Nave : MonoBehaviour
     {
         if (transform.position != target[current].position)
         {
-            Vector3 pos = Vector3.MoveTowards(transform.position, target[current].position, speed * ime.deltaTime);
+            Vector3 pos = Vector3.MoveTowards(transform.position, target[current].position, speed * Time.deltaTime);
             GetComponent<Rigidbody>().MovePosition(pos);
         }
         else current = (current + 1) % target.Length;
